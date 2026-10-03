@@ -1,0 +1,32 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+requests>=2.31
+python-dotenv>=1.0
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14.0          # parquet support for pandas
+
+# ── Database ──────────────────────────────────────────────────────────────────
+# sqlite3 is in stdlib — nothing extra needed
+
+# ── NLP (Phase 3) ─────────────────────────────────────────────────────────────
+spacy>=3.7
+# python -m spacy download fr_core_news_sm
+# python -m spacy download en_core_web_sm
+langdetect>=1.0.9
+rapidfuzz>=3.5          # fuzzy dedup & skill normalization
+
+# ── ML / Data Science (Phase 4) ───────────────────────────────────────────────
+scikit-learn>=1.4
+scipy>=1.12
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+
+# ── Dashboard (Phase 7) ───────────────────────────────────────────────────────
+streamlit>=1.32
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+pyyaml>=6.0
+tqdm>=4.66

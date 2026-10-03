@@ -1,0 +1,20 @@
+# Environnements virtuels
+.venv/
+venv/
+
+# Secrets (clés API Adzuna, etc.)
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Données (trop lourdes, et regénérables par ton pipeline)
+data/raw/
+data/processed/
+data/*.db
+
+
+# Éditeur / système
+.vscode/
+.DS_Store

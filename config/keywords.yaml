@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────────────────────────
+# Mots-clés de collecte par domaine
+# Chaque entrée : { query, domain, role }
+# ─────────────────────────────────────────────────────────────────
+
+ai_data:
+  - query: "data scientist"
+    domain: ai_data
+    role: Data Scientist
+  - query: "data analyst"
+    domain: ai_data
+    role: Data Analyst
+  - query: "data engineer"
+    domain: ai_data
+    role: Data Engineer
+  - query: "machine learning engineer"
+    domain: ai_data
+    role: ML Engineer
+  - query: "MLOps"
+    domain: ai_data
+    role: MLOps Engineer
+  - query: "intelligence artificielle"
+    domain: ai_data
+    role: AI Engineer
+  - query: "NLP engineer"
+    domain: ai_data
+    role: NLP Engineer
+  - query: "LLM engineer"
+    domain: ai_data
+    role: LLM / GenAI Engineer
+  - query: "data architect"
+    domain: ai_data
+    role: Data Architect
+  - query: "business intelligence"
+    domain: ai_data
+    role: BI Developer
+
+# ── Futures extensions ────────────────────────────────────────────
+# software_engineering:
+#   - query: "software engineer"
+#   - query: "backend developer"
+#   - query: "fullstack developer"
+
+# cloud:
+#   - query: "cloud architect"
+#   - query: "AWS engineer"
+#   - query: "Azure engineer"
+
+# devops:
+#   - query: "DevOps engineer"
+#   - query: "SRE"
+#   - query: "platform engineer"

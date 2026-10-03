@@ -1,0 +1,30 @@
+2026-10-03 16:19:26,853 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:19:26,853 ERROR [data scientist] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:19:27,944 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:19:27,944 ERROR [data analyst] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:19:28,923 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:19:28,924 ERROR [data engineer] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:19:30,090 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:19:30,092 ERROR [machine learning] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:19:31,720 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:19:31,751 ERROR [MLOps] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:19:32,784 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:19:32,784 ERROR [intelligence artificielle] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:19:32,788 INFO Termine. Offres recues par mot-cle : {}
+2026-10-03 16:19:32,788 INFO Offres uniques (tous mots-cles confondus) : 0
+2026-10-03 16:21:27,365 WARNING Probleme reseau (ReadTimeout). Nouvelle tentative dans 2s (1/4)
+2026-10-03 16:22:34,290 WARNING Probleme reseau (ConnectionError). Nouvelle tentative dans 4s (2/4)
+2026-10-03 16:22:40,162 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:22:40,163 ERROR [data scientist] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:22:41,574 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:22:41,575 ERROR [data analyst] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:22:42,936 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:22:42,938 ERROR [data engineer] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:22:44,313 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:22:44,314 ERROR [machine learning] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:22:45,355 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:22:45,356 ERROR [MLOps] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:22:46,369 ERROR Echec d'authentification (400) : {"error_description":"Client authentication failed","error":"invalid_client"}
+2026-10-03 16:22:46,370 ERROR [intelligence artificielle] echec : 400 Client Error: Bad Request for url: https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire
+2026-10-03 16:22:46,374 INFO Termine. Offres recues par mot-cle : {}
+2026-10-03 16:22:46,374 INFO Offres uniques (tous mots-cles confondus) : 0

@@ -1,0 +1,26 @@
+2026-09-29 22:32:32,643 ERROR Acces refuse (401) : verifie ADZUNA_APP_ID et ADZUNA_APP_KEY.
+2026-09-29 22:32:32,644 ERROR [data scientist] echec : 401 Client Error: Unauthorized for url: https://api.adzuna.com/v1/api/jobs/fr/search/1?app_id=nouha%402&app_key=Gw6vUX.ygJeptJ&what=data+scientist&results_per_page=50&sort_by=date&content-type=application%2Fjson
+2026-09-29 22:32:32,645 INFO Termine. Offres recues par mot-cle : {}
+2026-09-29 22:32:32,645 INFO Offres uniques (tous mots-cles confondus) : 0
+2026-09-29 22:39:37,106 INFO [data scientist] page 1 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:39:48,176 INFO [data scientist] page 2 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:39:58,412 INFO [data scientist] page 3 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:40:09,262 INFO [data scientist] page 4 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:40:18,709 INFO [data scientist] page 5 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:40:26,776 INFO [data scientist] page 6 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:40:35,906 INFO [data scientist] page 7 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:40:47,058 INFO [data scientist] page 8 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:40:57,084 INFO [data scientist] page 9 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:41:06,406 INFO [data scientist] page 10 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:41:16,152 INFO [data scientist] page 11 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:41:27,106 INFO [data scientist] page 12 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:41:36,020 INFO [data scientist] page 13 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:41:49,112 INFO [data scientist] page 14 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:41:59,862 INFO [data scientist] page 15 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:42:12,455 INFO [data scientist] page 16 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:42:24,350 INFO [data scientist] page 17 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:42:34,122 INFO [data scientist] page 18 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:42:44,325 INFO [data scientist] page 19 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:42:55,593 INFO [data scientist] page 20 : 50 offres (50 nouvelles) - total annonce par l'API : 1375
+2026-09-29 22:42:58,095 INFO Termine. Offres recues par mot-cle : {'data scientist': 1000}
+2026-09-29 22:42:58,095 INFO Offres uniques (tous mots-cles confondus) : 1000

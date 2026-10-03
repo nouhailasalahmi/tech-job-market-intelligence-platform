@@ -1,0 +1,88 @@
+# ─────────────────────────────────────────────────────────────────
+# Taxonomie des compétences
+# canonical_name: liste de patterns regex (case-insensitive)
+# ─────────────────────────────────────────────────────────────────
+
+languages:
+  Python:       ['\bpython\b']
+  SQL:          ['\bsql\b', '\bpostgresql\b', '\bmysql\b', '\bmariadb\b']
+  Scala:        ['\bscala\b']
+  Java:         ['\bjava\b(?!script)']
+  JavaScript:   ['\bjavascript\b', '\bjs\b']
+  TypeScript:   ['\btypescript\b', '\bts\b']
+  "C++":        ['c\+\+', '\bcpp\b']
+  R:            ['\blanguage r\b', '\bprogrammation r\b', '\br studio\b', '\brstudio\b']
+  Julia:        ['\bjulia\b']
+  Go:           ['\bgolang\b']
+  Rust:         ['\brust\b(?!y)']
+
+data_engineering:
+  Spark:        ['\bspark\b', '\bpyspark\b']
+  Hadoop:       ['\bhadoop\b']
+  Kafka:        ['\bkafka\b']
+  Airflow:      ['\bairflow\b']
+  dbt:          ['\bdbt\b']
+  Flink:        ['\bflink\b']
+  Hive:         ['\bhive\b']
+  Databricks:   ['\bdatabricks\b']
+  Snowflake:    ['\bsnowflake\b']
+  dbt:          ['\bdbt\b']
+
+cloud:
+  AWS:          ['\baws\b', 'amazon web services']
+  Azure:        ['\bazure\b', 'microsoft azure']
+  GCP:          ['\bgcp\b', 'google cloud', 'bigquery']
+
+devops_mlops:
+  Docker:       ['\bdocker\b']
+  Kubernetes:   ['\bkubernetes\b', '\bk8s\b']
+  Git:          ['\bgit\b(?!hub|lab)?', '\bgithub\b', '\bgitlab\b']
+  Linux:        ['\blinux\b', '\bunix\b']
+  CI/CD:        ['\bci/cd\b', '\bjenkins\b', '\bgithub actions\b', '\bgitlab ci\b']
+  Terraform:    ['\bterraform\b']
+  MLflow:       ['\bmlflow\b']
+  MLOps:        ['\bmlops\b']
+
+machine_learning:
+  "Machine Learning":   ['machine learning', '\bml\b(?!\s*engineer)']
+  "Deep Learning":      ['deep learning', '\bdl\b']
+  NLP:                  ['\bnlp\b', 'traitement du langage naturel', 'natural language processing']
+  "Computer Vision":    ['computer vision', '\bcv\b(?!\s*engineer)']
+  LLM:                  ['\bllm\b', '\bllms\b', 'large language model']
+  "Gen AI":             ['generative ai', 'genai', 'gen.?ai']
+  RAG:                  ['\brag\b', 'retrieval.augmented']
+  "Reinforcement Learning": ['reinforcement learning', '\brl\b(?!\s)']
+
+libraries:
+  Pandas:       ['\bpandas\b']
+  NumPy:        ['\bnumpy\b']
+  "Scikit-learn": ['scikit.?learn', '\bsklearn\b']
+  TensorFlow:   ['\btensorflow\b', '\btf\b']
+  PyTorch:      ['\bpytorch\b']
+  Keras:        ['\bkeras\b']
+  HuggingFace:  ['hugging.?face', '\btransformers\b(?! library)?']
+  LangChain:    ['\blangchain\b']
+  XGBoost:      ['\bxgboost\b']
+  LightGBM:     ['\blightgbm\b']
+
+visualization:
+  "Power BI":   ['power.?bi']
+  Tableau:      ['\btableau\b']
+  Looker:       ['\blooker\b']
+  Plotly:       ['\bplotly\b']
+  Matplotlib:   ['\bmatplotlib\b']
+  Excel:        ['\bexcel\b']
+  Grafana:      ['\bgrafana\b']
+
+databases:
+  PostgreSQL:   ['\bpostgresql\b', '\bpostgres\b']
+  MySQL:        ['\bmysql\b']
+  MongoDB:      ['\bmongodb\b']
+  Redis:        ['\bredis\b']
+  Elasticsearch: ['\belasticsearch\b', '\belastic\b']
+  Cassandra:    ['\bcassandra\b']
+  Neo4j:        ['\bneo4j\b']
+
+soft_skills:
+  Agile:        ['\bagile\b', '\bscrum\b', '\bkanban\b']
+  Communication: ['\bcommunication\b']
