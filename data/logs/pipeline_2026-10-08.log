@@ -1,0 +1,303 @@
+2026-10-08 10:25:11,233 INFO __main__ — ==== AI & Data Job Market Pipeline ====
+2026-10-08 10:25:11,235 INFO __main__ — --- Phase 1 : Collecte Adzuna ---
+2026-10-08 10:25:11,791 INFO src.collectors.adzuna — Collecte Adzuna — 10 mots-clés, pays=fr
+2026-10-08 10:25:16,680 INFO src.collectors.adzuna — [data scientist] page 1 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:20,211 INFO src.collectors.adzuna — [data scientist] page 2 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:23,757 INFO src.collectors.adzuna — [data scientist] page 3 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:27,576 INFO src.collectors.adzuna — [data scientist] page 4 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:31,254 INFO src.collectors.adzuna — [data scientist] page 5 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:34,621 INFO src.collectors.adzuna — [data scientist] page 6 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:38,451 INFO src.collectors.adzuna — [data scientist] page 7 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:42,168 INFO src.collectors.adzuna — [data scientist] page 8 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:45,632 INFO src.collectors.adzuna — [data scientist] page 9 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:49,121 INFO src.collectors.adzuna — [data scientist] page 10 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:52,802 INFO src.collectors.adzuna — [data scientist] page 11 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:25:56,616 INFO src.collectors.adzuna — [data scientist] page 12 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:00,165 INFO src.collectors.adzuna — [data scientist] page 13 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:03,750 INFO src.collectors.adzuna — [data scientist] page 14 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:07,340 INFO src.collectors.adzuna — [data scientist] page 15 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:10,959 INFO src.collectors.adzuna — [data scientist] page 16 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:14,753 INFO src.collectors.adzuna — [data scientist] page 17 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:18,188 INFO src.collectors.adzuna — [data scientist] page 18 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:21,895 INFO src.collectors.adzuna — [data scientist] page 19 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:25,236 INFO src.collectors.adzuna — [data scientist] page 20 : 50 offres (50 nouvelles) — API total : 1368
+2026-10-08 10:26:28,734 INFO src.collectors.adzuna — [data analyst] page 1 : 50 offres (42 nouvelles) — API total : 1669
+2026-10-08 10:26:32,333 INFO src.collectors.adzuna — [data analyst] page 2 : 50 offres (44 nouvelles) — API total : 1669
+2026-10-08 10:26:36,014 INFO src.collectors.adzuna — [data analyst] page 3 : 50 offres (42 nouvelles) — API total : 1669
+2026-10-08 10:26:39,500 INFO src.collectors.adzuna — [data analyst] page 4 : 50 offres (42 nouvelles) — API total : 1669
+2026-10-08 10:26:42,889 INFO src.collectors.adzuna — [data analyst] page 5 : 50 offres (43 nouvelles) — API total : 1669
+2026-10-08 10:26:46,452 INFO src.collectors.adzuna — [data analyst] page 6 : 50 offres (44 nouvelles) — API total : 1669
+2026-10-08 10:26:49,738 INFO src.collectors.adzuna — [data analyst] page 7 : 50 offres (38 nouvelles) — API total : 1669
+2026-10-08 10:26:53,238 INFO src.collectors.adzuna — [data analyst] page 8 : 50 offres (42 nouvelles) — API total : 1669
+2026-10-08 10:26:56,865 INFO src.collectors.adzuna — [data analyst] page 9 : 50 offres (41 nouvelles) — API total : 1669
+2026-10-08 10:27:00,321 INFO src.collectors.adzuna — [data analyst] page 10 : 50 offres (42 nouvelles) — API total : 1669
+2026-10-08 10:27:03,780 INFO src.collectors.adzuna — [data analyst] page 11 : 50 offres (42 nouvelles) — API total : 1669
+2026-10-08 10:27:07,179 INFO src.collectors.adzuna — [data analyst] page 12 : 50 offres (35 nouvelles) — API total : 1669
+2026-10-08 10:27:10,548 INFO src.collectors.adzuna — [data analyst] page 13 : 50 offres (40 nouvelles) — API total : 1669
+2026-10-08 10:27:14,210 INFO src.collectors.adzuna — [data analyst] page 14 : 50 offres (45 nouvelles) — API total : 1669
+2026-10-08 10:27:17,738 INFO src.collectors.adzuna — [data analyst] page 15 : 50 offres (43 nouvelles) — API total : 1669
+2026-10-08 10:27:21,273 INFO src.collectors.adzuna — [data analyst] page 16 : 50 offres (45 nouvelles) — API total : 1669
+2026-10-08 10:27:24,638 INFO src.collectors.adzuna — [data analyst] page 17 : 50 offres (45 nouvelles) — API total : 1669
+2026-10-08 10:27:28,065 INFO src.collectors.adzuna — [data analyst] page 18 : 50 offres (44 nouvelles) — API total : 1669
+2026-10-08 10:27:31,446 INFO src.collectors.adzuna — [data analyst] page 19 : 50 offres (44 nouvelles) — API total : 1669
+2026-10-08 10:27:34,935 INFO src.collectors.adzuna — [data analyst] page 20 : 50 offres (38 nouvelles) — API total : 1669
+2026-10-08 10:27:38,372 INFO src.collectors.adzuna — [data engineer] page 1 : 50 offres (30 nouvelles) — API total : 1935
+2026-10-08 10:27:41,763 INFO src.collectors.adzuna — [data engineer] page 2 : 50 offres (29 nouvelles) — API total : 1935
+2026-10-08 10:27:45,477 INFO src.collectors.adzuna — [data engineer] page 3 : 50 offres (30 nouvelles) — API total : 1935
+2026-10-08 10:27:49,143 INFO src.collectors.adzuna — [data engineer] page 4 : 50 offres (29 nouvelles) — API total : 1935
+2026-10-08 10:27:52,954 INFO src.collectors.adzuna — [data engineer] page 5 : 50 offres (35 nouvelles) — API total : 1935
+2026-10-08 10:27:56,469 INFO src.collectors.adzuna — [data engineer] page 6 : 50 offres (27 nouvelles) — API total : 1935
+2026-10-08 10:28:00,089 INFO src.collectors.adzuna — [data engineer] page 7 : 50 offres (28 nouvelles) — API total : 1935
+2026-10-08 10:28:03,731 INFO src.collectors.adzuna — [data engineer] page 8 : 50 offres (25 nouvelles) — API total : 1935
+2026-10-08 10:28:07,063 INFO src.collectors.adzuna — [data engineer] page 9 : 50 offres (31 nouvelles) — API total : 1935
+2026-10-08 10:28:10,431 INFO src.collectors.adzuna — [data engineer] page 10 : 50 offres (32 nouvelles) — API total : 1935
+2026-10-08 10:28:14,027 INFO src.collectors.adzuna — [data engineer] page 11 : 50 offres (33 nouvelles) — API total : 1935
+2026-10-08 10:28:17,377 INFO src.collectors.adzuna — [data engineer] page 12 : 50 offres (28 nouvelles) — API total : 1935
+2026-10-08 10:28:20,811 INFO src.collectors.adzuna — [data engineer] page 13 : 50 offres (28 nouvelles) — API total : 1935
+2026-10-08 10:28:24,081 INFO src.collectors.adzuna — [data engineer] page 14 : 50 offres (27 nouvelles) — API total : 1935
+2026-10-08 10:28:27,645 INFO src.collectors.adzuna — [data engineer] page 15 : 50 offres (34 nouvelles) — API total : 1935
+2026-10-08 10:28:31,123 INFO src.collectors.adzuna — [data engineer] page 16 : 50 offres (30 nouvelles) — API total : 1935
+2026-10-08 10:28:34,406 INFO src.collectors.adzuna — [data engineer] page 17 : 50 offres (23 nouvelles) — API total : 1935
+2026-10-08 10:28:37,757 INFO src.collectors.adzuna — [data engineer] page 18 : 50 offres (24 nouvelles) — API total : 1935
+2026-10-08 10:28:41,356 INFO src.collectors.adzuna — [data engineer] page 19 : 50 offres (31 nouvelles) — API total : 1935
+2026-10-08 10:28:44,939 INFO src.collectors.adzuna — [data engineer] page 20 : 50 offres (35 nouvelles) — API total : 1935
+2026-10-08 10:28:58,520 INFO src.collectors.adzuna — [machine learning engineer] page 1 : 50 offres (25 nouvelles) — API total : 140
+2026-10-08 10:29:02,571 INFO src.collectors.adzuna — [machine learning engineer] page 2 : 50 offres (33 nouvelles) — API total : 140
+2026-10-08 10:29:06,425 INFO src.collectors.adzuna — [machine learning engineer] page 3 : 40 offres (40 nouvelles) — API total : 140
+2026-10-08 10:29:08,041 INFO src.collectors.adzuna — [MLOps] page 1 : 50 offres (27 nouvelles) — API total : 673
+2026-10-08 10:29:12,214 INFO src.collectors.adzuna — [MLOps] page 2 : 50 offres (30 nouvelles) — API total : 673
+2026-10-08 10:29:16,299 INFO src.collectors.adzuna — [MLOps] page 3 : 50 offres (29 nouvelles) — API total : 673
+2026-10-08 10:29:19,993 INFO src.collectors.adzuna — [MLOps] page 4 : 50 offres (22 nouvelles) — API total : 673
+2026-10-08 10:29:23,465 INFO src.collectors.adzuna — [MLOps] page 5 : 50 offres (26 nouvelles) — API total : 673
+2026-10-08 10:29:27,519 INFO src.collectors.adzuna — [MLOps] page 6 : 50 offres (31 nouvelles) — API total : 673
+2026-10-08 10:29:31,225 INFO src.collectors.adzuna — [MLOps] page 7 : 50 offres (23 nouvelles) — API total : 673
+2026-10-08 10:29:34,902 INFO src.collectors.adzuna — [MLOps] page 8 : 50 offres (27 nouvelles) — API total : 673
+2026-10-08 10:29:38,567 INFO src.collectors.adzuna — [MLOps] page 9 : 50 offres (30 nouvelles) — API total : 673
+2026-10-08 10:29:42,176 INFO src.collectors.adzuna — [MLOps] page 10 : 50 offres (25 nouvelles) — API total : 673
+2026-10-08 10:29:46,172 INFO src.collectors.adzuna — [MLOps] page 11 : 50 offres (43 nouvelles) — API total : 673
+2026-10-08 10:29:50,061 INFO src.collectors.adzuna — [MLOps] page 12 : 50 offres (47 nouvelles) — API total : 673
+2026-10-08 10:29:53,832 INFO src.collectors.adzuna — [MLOps] page 13 : 50 offres (46 nouvelles) — API total : 673
+2026-10-08 10:29:56,868 INFO src.collectors.adzuna — [MLOps] page 14 : 23 offres (22 nouvelles) — API total : 673
+2026-10-08 10:29:57,950 INFO src.collectors.adzuna — [intelligence artificielle] page 1 : 50 offres (49 nouvelles) — API total : 10945
+2026-10-08 10:30:01,539 INFO src.collectors.adzuna — [intelligence artificielle] page 2 : 50 offres (50 nouvelles) — API total : 10945
+2026-10-08 10:30:05,106 INFO src.collectors.adzuna — [intelligence artificielle] page 3 : 50 offres (48 nouvelles) — API total : 10945
+2026-10-08 10:30:08,882 INFO src.collectors.adzuna — [intelligence artificielle] page 4 : 50 offres (50 nouvelles) — API total : 10945
+2026-10-08 10:30:12,805 INFO src.collectors.adzuna — [intelligence artificielle] page 5 : 50 offres (46 nouvelles) — API total : 10945
+2026-10-08 10:30:16,251 INFO src.collectors.adzuna — [intelligence artificielle] page 6 : 50 offres (46 nouvelles) — API total : 10945
+2026-10-08 10:30:19,860 INFO src.collectors.adzuna — [intelligence artificielle] page 7 : 50 offres (45 nouvelles) — API total : 10945
+2026-10-08 10:30:23,626 INFO src.collectors.adzuna — [intelligence artificielle] page 8 : 50 offres (44 nouvelles) — API total : 10945
+2026-10-08 10:30:27,169 INFO src.collectors.adzuna — [intelligence artificielle] page 9 : 50 offres (44 nouvelles) — API total : 10945
+2026-10-08 10:30:31,102 INFO src.collectors.adzuna — [intelligence artificielle] page 10 : 50 offres (49 nouvelles) — API total : 10945
+2026-10-08 10:30:34,662 INFO src.collectors.adzuna — [intelligence artificielle] page 11 : 50 offres (44 nouvelles) — API total : 10945
+2026-10-08 10:30:38,312 INFO src.collectors.adzuna — [intelligence artificielle] page 12 : 50 offres (48 nouvelles) — API total : 10945
+2026-10-08 10:30:42,040 INFO src.collectors.adzuna — [intelligence artificielle] page 13 : 50 offres (50 nouvelles) — API total : 10945
+2026-10-08 10:30:45,972 INFO src.collectors.adzuna — [intelligence artificielle] page 14 : 50 offres (50 nouvelles) — API total : 10945
+2026-10-08 10:30:49,481 INFO src.collectors.adzuna — [intelligence artificielle] page 15 : 50 offres (48 nouvelles) — API total : 10945
+2026-10-08 10:30:53,137 INFO src.collectors.adzuna — [intelligence artificielle] page 16 : 50 offres (41 nouvelles) — API total : 10945
+2026-10-08 10:30:56,742 INFO src.collectors.adzuna — [intelligence artificielle] page 17 : 50 offres (46 nouvelles) — API total : 10945
+2026-10-08 10:31:00,397 INFO src.collectors.adzuna — [intelligence artificielle] page 18 : 50 offres (46 nouvelles) — API total : 10945
+2026-10-08 10:31:03,888 INFO src.collectors.adzuna — [intelligence artificielle] page 19 : 50 offres (48 nouvelles) — API total : 10945
+2026-10-08 10:31:07,530 INFO src.collectors.adzuna — [intelligence artificielle] page 20 : 50 offres (44 nouvelles) — API total : 10945
+2026-10-08 10:31:10,344 INFO src.collectors.adzuna — [NLP engineer] page 1 : 3 offres (2 nouvelles) — API total : 3
+2026-10-08 10:31:11,329 INFO src.collectors.adzuna — [LLM engineer] page 1 : 50 offres (42 nouvelles) — API total : 63
+2026-10-08 10:31:14,233 INFO src.collectors.adzuna — [LLM engineer] page 2 : 13 offres (2 nouvelles) — API total : 63
+2026-10-08 10:31:15,460 INFO src.collectors.adzuna — [data architect] page 1 : 50 offres (16 nouvelles) — API total : 547
+2026-10-08 10:31:18,858 INFO src.collectors.adzuna — [data architect] page 2 : 50 offres (18 nouvelles) — API total : 547
+2026-10-08 10:31:22,230 INFO src.collectors.adzuna — [data architect] page 3 : 50 offres (20 nouvelles) — API total : 547
+2026-10-08 10:31:25,620 INFO src.collectors.adzuna — [data architect] page 4 : 50 offres (22 nouvelles) — API total : 547
+2026-10-08 10:31:29,369 INFO src.collectors.adzuna — [data architect] page 5 : 50 offres (19 nouvelles) — API total : 547
+2026-10-08 10:31:33,624 INFO src.collectors.adzuna — [data architect] page 6 : 50 offres (28 nouvelles) — API total : 547
+2026-10-08 10:31:37,369 INFO src.collectors.adzuna — [data architect] page 7 : 50 offres (31 nouvelles) — API total : 547
+2026-10-08 10:31:41,266 INFO src.collectors.adzuna — [data architect] page 8 : 50 offres (47 nouvelles) — API total : 547
+2026-10-08 10:31:44,831 INFO src.collectors.adzuna — [data architect] page 9 : 50 offres (47 nouvelles) — API total : 547
+2026-10-08 10:31:48,459 INFO src.collectors.adzuna — [data architect] page 10 : 50 offres (39 nouvelles) — API total : 547
+2026-10-08 10:31:52,282 INFO src.collectors.adzuna — [data architect] page 11 : 47 offres (45 nouvelles) — API total : 547
+2026-10-08 10:31:53,188 INFO src.collectors.adzuna — [business intelligence] page 1 : 50 offres (23 nouvelles) — API total : 1748
+2026-10-08 10:33:04,088 INFO src.collectors.adzuna — [business intelligence] page 2 : 50 offres (12 nouvelles) — API total : 1748
+2026-10-08 10:33:11,273 INFO src.collectors.adzuna — [business intelligence] page 3 : 50 offres (38 nouvelles) — API total : 1748
+2026-10-08 10:33:15,208 INFO src.collectors.adzuna — [business intelligence] page 4 : 50 offres (44 nouvelles) — API total : 1748
+2026-10-08 10:33:19,021 INFO src.collectors.adzuna — [business intelligence] page 5 : 50 offres (40 nouvelles) — API total : 1748
+2026-10-08 10:33:22,756 INFO src.collectors.adzuna — [business intelligence] page 6 : 50 offres (38 nouvelles) — API total : 1748
+2026-10-08 10:33:26,227 INFO src.collectors.adzuna — [business intelligence] page 7 : 50 offres (44 nouvelles) — API total : 1748
+2026-10-08 10:33:29,962 INFO src.collectors.adzuna — [business intelligence] page 8 : 50 offres (39 nouvelles) — API total : 1748
+2026-10-08 10:33:33,472 INFO src.collectors.adzuna — [business intelligence] page 9 : 50 offres (42 nouvelles) — API total : 1748
+2026-10-08 10:33:36,898 INFO src.collectors.adzuna — [business intelligence] page 10 : 50 offres (46 nouvelles) — API total : 1748
+2026-10-08 10:33:40,427 INFO src.collectors.adzuna — [business intelligence] page 11 : 50 offres (49 nouvelles) — API total : 1748
+2026-10-08 10:33:44,052 INFO src.collectors.adzuna — [business intelligence] page 12 : 50 offres (50 nouvelles) — API total : 1748
+2026-10-08 10:33:48,141 INFO src.collectors.adzuna — [business intelligence] page 13 : 50 offres (50 nouvelles) — API total : 1748
+2026-10-08 10:33:51,559 INFO src.collectors.adzuna — [business intelligence] page 14 : 50 offres (47 nouvelles) — API total : 1748
+2026-10-08 10:33:54,987 INFO src.collectors.adzuna — [business intelligence] page 15 : 50 offres (45 nouvelles) — API total : 1748
+2026-10-08 10:33:58,412 INFO src.collectors.adzuna — [business intelligence] page 16 : 50 offres (43 nouvelles) — API total : 1748
+2026-10-08 10:34:02,235 INFO src.collectors.adzuna — [business intelligence] page 17 : 50 offres (40 nouvelles) — API total : 1748
+2026-10-08 10:34:05,727 INFO src.collectors.adzuna — [business intelligence] page 18 : 50 offres (35 nouvelles) — API total : 1748
+2026-10-08 10:34:09,247 INFO src.collectors.adzuna — [business intelligence] page 19 : 50 offres (39 nouvelles) — API total : 1748
+2026-10-08 10:34:12,874 INFO src.collectors.adzuna — [business intelligence] page 20 : 50 offres (38 nouvelles) — API total : 1748
+2026-10-08 10:34:15,375 INFO src.collectors.adzuna — Terminé. Offres par mot-clé : {'data scientist': 1000, 'data analyst': 1000, 'data engineer': 1000, 'machine learning engineer': 140, 'MLOps': 673, 'intelligence artificielle': 1000, 'NLP engineer': 3, 'LLM engineer': 63, 'data architect': 547, 'business intelligence': 1000}
+2026-10-08 10:34:15,376 INFO src.collectors.adzuna — Offres uniques : 5072
+2026-10-08 10:34:15,384 INFO __main__ — --- Phase 1 : Collecte France Travail ---
+2026-10-08 10:34:15,385 ERROR __main__ — Collecte France Travail : exception inattendue
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\Tech job Market intelligent plateforme\src\analysis\pipeline\run_pipeline.py", line 78, in collect_sources
+    from src.collectors.collect_francetravail import run as collect_ft
+ModuleNotFoundError: No module named 'src.collectors.collect_francetravail'
+2026-10-08 10:34:15,388 INFO __main__ — Collecte Adzuna : OK
+2026-10-08 10:34:15,392 ERROR __main__ — Collecte France Travail : ÉCHEC
+2026-10-08 10:34:15,397 INFO __main__ — --- Phase 2 : Chargement des données brutes ---
+2026-10-08 10:34:23,441 INFO src.analysis.pipeline.loader — Chargé 19569 offres brutes depuis 397 fichiers.
+2026-10-08 10:34:44,212 INFO src.analysis.pipeline.loader — Chargé 1531 offres France Travail depuis 1531 fichiers.
+2026-10-08 10:34:44,217 INFO __main__ — Sources : Adzuna=19569, France Travail=1531
+2026-10-08 10:34:44,243 INFO __main__ — --- Phase 2 : Nettoyage et structuration ---
+2026-10-08 10:34:44,244 INFO src.analysis.pipeline.cleaner — === Phase 2 — Data Preparation ===
+2026-10-08 10:34:44,244 INFO src.analysis.pipeline.cleaner — Étape 1/8 : sélection des colonnes...
+2026-10-08 10:34:44,252 INFO src.analysis.pipeline.cleaner — Étape 2/8 : nettoyage des textes...
+2026-10-08 10:34:45,678 INFO src.analysis.pipeline.cleaner — Étape 3/8 : dédoublonnage...
+2026-10-08 10:34:45,876 INFO src.analysis.pipeline.cleaner — Dedup : 21100 -> 9593 lignes (-11507)
+2026-10-08 10:34:45,876 INFO src.analysis.pipeline.cleaner — Étape 4/8 : parsing des dates...
+2026-10-08 10:34:45,927 INFO src.analysis.pipeline.cleaner — Étape 5/8 : normalisation des localisations...
+2026-10-08 10:34:49,707 INFO src.analysis.pipeline.cleaner — Étape 6/8 : normalisation des salaires...
+2026-10-08 10:34:49,743 INFO src.analysis.pipeline.cleaner — Étape 7/8 : normalisation des titres (rôle + niveau)...
+2026-10-08 10:34:50,024 INFO src.analysis.pipeline.cleaner — Rôles détectés :
+role
+Autre                   5267
+Data Engineer            713
+Data Analyst             646
+Data Scientist           550
+AI Engineer              453
+LLM / GenAI Engineer     115
+ML Engineer              101
+Data Architect            99
+MLOps Engineer            76
+BI Developer              27
+Data Manager              15
+2026-10-08 10:34:50,026 INFO src.analysis.pipeline.cleaner — Niveaux détectés :
+niveau
+Unspecified    4677
+Stage          1013
+Manager         964
+Senior          775
+Lead            312
+Alternance      245
+Junior           76
+2026-10-08 10:34:50,027 INFO src.analysis.pipeline.cleaner — Étape 8/8 : langue + score de pertinence...
+2026-10-08 10:34:50,428 INFO src.analysis.pipeline.cleaner — 
+--------------------------------------------------
+  RAPPORT QUALITE - Phase 2
+--------------------------------------------------
+  Offres totales         : 8062
+  Pertinentes (score>=1) : 4311
+  Haute pertinence (>=2) : 2441
+  Avec salaire mensuel   : 2086
+  Salaires fiables       : 1957
+  Avec ville precise     : 7071
+  En teletravail         : 89
+  Langue FR              : 7086
+  Langue EN              : 976
+  Periode : 2024-01-12 -> 2026-10-08
+
+  Valeurs manquantes (%)
+    entreprise                  0.0%
+    lieu                        0.0%
+    ville                      12.3%
+    region                     11.5%
+    salaire_mensuel_min        74.1%
+    description                 0.0%
+    type_contrat               57.7%
+
+  Roles detectes (top 10)
+    Autre                           5267
+    Data Engineer                    713
+    Data Analyst                     646
+    Data Scientist                   550
+    AI Engineer                      453
+    LLM / GenAI Engineer             115
+    ML Engineer                      101
+    Data Architect                    99
+    MLOps Engineer                    76
+    BI Developer                      27
+--------------------------------------------------
+2026-10-08 10:34:50,876 INFO __main__ — CSV sauvegardé : data/processed/jobs_clean.csv (8062 lignes)
+2026-10-08 10:34:51,513 INFO src.analysis.pipeline.db_loader — Table 'jobs' écrite : 8062 lignes.
+2026-10-08 10:34:51,657 INFO src.analysis.pipeline.db_loader — Index créés.
+2026-10-08 10:34:51,657 INFO src.analysis.pipeline.db_loader — Vérification DB : 8062 enregistrements dans 'jobs'.
+2026-10-08 10:34:51,660 INFO __main__ — Base SQLite mise à jour : data/jobs.db
+2026-10-08 10:34:51,660 INFO __main__ — ==== Pipeline terminée ====
+2026-10-08 10:44:11,915 INFO __main__ — ==== AI & Data Job Market Pipeline ====
+2026-10-08 10:44:11,915 INFO __main__ — --- Phase 2 : Chargement des données brutes ---
+2026-10-08 10:45:57,077 INFO src.analysis.pipeline.loader — Chargé 8062 offres Adzuna depuis 8062 fichiers.
+2026-10-08 10:45:57,971 INFO src.analysis.pipeline.loader — Chargé 1531 offres France Travail depuis 1531 fichiers.
+2026-10-08 10:45:57,977 INFO __main__ — Sources : Adzuna=8062, France Travail=1531
+2026-10-08 10:45:58,031 INFO __main__ — --- Phase 2 : Nettoyage et structuration ---
+2026-10-08 10:45:58,032 INFO src.analysis.pipeline.cleaner — === Phase 2 — Data Preparation ===
+2026-10-08 10:45:58,033 INFO src.analysis.pipeline.cleaner — Étape 1/8 : sélection des colonnes...
+2026-10-08 10:45:58,039 INFO src.analysis.pipeline.cleaner — Étape 2/8 : nettoyage des textes...
+2026-10-08 10:45:59,255 INFO src.analysis.pipeline.cleaner — Étape 3/8 : dédoublonnage...
+2026-10-08 10:45:59,474 INFO src.analysis.pipeline.cleaner — Dedup : 9593 -> 9593 lignes (-0)
+2026-10-08 10:45:59,474 INFO src.analysis.pipeline.cleaner — Étape 4/8 : parsing des dates...
+2026-10-08 10:45:59,533 INFO src.analysis.pipeline.cleaner — Étape 5/8 : normalisation des localisations...
+2026-10-08 10:46:04,109 INFO src.analysis.pipeline.cleaner — Étape 6/8 : normalisation des salaires...
+2026-10-08 10:46:04,141 INFO src.analysis.pipeline.cleaner — Étape 7/8 : normalisation des titres (rôle + niveau)...
+2026-10-08 10:46:04,494 INFO src.analysis.pipeline.cleaner — Rôles détectés :
+role
+Autre                   5265
+Data Engineer            713
+Data Analyst             646
+Data Scientist           550
+AI Engineer              455
+LLM / GenAI Engineer     115
+ML Engineer              101
+Data Architect            99
+MLOps Engineer            76
+BI Developer              27
+Data Manager              15
+2026-10-08 10:46:04,496 INFO src.analysis.pipeline.cleaner — Niveaux détectés :
+niveau
+Unspecified    4674
+Stage          1014
+Manager         965
+Senior          775
+Lead            313
+Alternance      245
+Junior           76
+2026-10-08 10:46:04,496 INFO src.analysis.pipeline.cleaner — Étape 8/8 : langue + score de pertinence...
+2026-10-08 10:46:04,788 INFO src.analysis.pipeline.cleaner — 
+--------------------------------------------------
+  RAPPORT QUALITE - Phase 2
+--------------------------------------------------
+  Offres totales         : 8062
+  Pertinentes (score>=1) : 4311
+  Haute pertinence (>=2) : 2441
+  Avec salaire mensuel   : 2087
+  Salaires fiables       : 1958
+  Avec ville precise     : 7071
+  En teletravail         : 89
+  Langue FR              : 7086
+  Langue EN              : 976
+  Periode : 2024-01-12 -> 2026-10-08
+
+  Valeurs manquantes (%)
+    entreprise                  0.0%
+    lieu                        0.0%
+    ville                      12.3%
+    region                     11.5%
+    salaire_mensuel_min        74.1%
+    description                 0.0%
+    type_contrat               57.7%
+
+  Roles detectes (top 10)
+    Autre                           5265
+    Data Engineer                    713
+    Data Analyst                     646
+    Data Scientist                   550
+    AI Engineer                      455
+    LLM / GenAI Engineer             115
+    ML Engineer                      101
+    Data Architect                    99
+    MLOps Engineer                    76
+    BI Developer                      27
+--------------------------------------------------
+2026-10-08 10:46:05,202 INFO __main__ — CSV sauvegardé : data/processed/jobs_clean.csv (8062 lignes)
+2026-10-08 10:46:05,730 INFO src.analysis.pipeline.db_loader — Table 'jobs' écrite : 8062 lignes.
+2026-10-08 10:46:05,887 INFO src.analysis.pipeline.db_loader — Index créés.
+2026-10-08 10:46:05,887 INFO src.analysis.pipeline.db_loader — Vérification DB : 8062 enregistrements dans 'jobs'.
+2026-10-08 10:46:05,889 INFO __main__ — Base SQLite mise à jour : data/jobs.db
+2026-10-08 10:46:05,889 INFO __main__ — ==== Pipeline terminée ====

@@ -1,0 +1,20 @@
+# ─────────────────────────────────────────────────────────────────
+# Mon profil : les compétences que je maîtrise déjà.
+# Utilise les NOMS CANONIQUES de config/skills_taxonomy.yaml
+# (ex : "Scikit-learn", "Power BI", "Machine Learning"), la casse n'a pas d'importance.
+# Un nom jamais détecté dans les offres est signalé par gap_analyzer.py.
+#
+# >>> LISTE D'EXEMPLE : modifie-la pour qu'elle reflète ton vrai niveau <<<
+# ─────────────────────────────────────────────────────────────────
+
+competences:
+  - Python
+  - SQL
+  - Git
+  - Pandas
+  - NumPy
+  - Scikit-learn
+  - Machine Learning
+  - Deep Learning
+  - Docker
+  - Linux

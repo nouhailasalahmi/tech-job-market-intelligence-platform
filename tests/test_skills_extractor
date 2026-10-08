@@ -1,0 +1,43 @@
+import pytest
+
+from src.nlp.normalizer import load_taxonomy
+from src.nlp.skills_extractor import extract_skills
+
+
+@pytest.fixture(scope="module")
+def skills():
+    return load_taxonomy()
+
+
+def names(text, skills):
+    return {s.name for s in extract_skills(text, skills)}
+
+
+def test_variantes_scikit_learn(skills):
+    assert "Scikit-learn" in names("Maitrise de sklearn et pandas", skills)
+    assert "Scikit-learn" in names("scikit-learn", skills)
+
+
+def test_variantes_francaises(skills):
+    assert "Machine Learning" in names("Experience en apprentissage automatique", skills)
+
+
+def test_cv_nest_pas_computer_vision(skills):
+    assert "Computer Vision" not in names("Envoyez votre CV par mail", skills)
+
+
+def test_prenom_julia_nest_pas_le_langage(skills):
+    assert "Julia" not in names("Contact : Julia Martin, RH", skills)
+
+
+def test_java_et_javascript_distincts(skills):
+    assert "Java" not in names("Developpeur JavaScript", skills)
+    assert "JavaScript" in names("Developpeur JavaScript", skills)
+
+
+def test_cpp(skills):
+    assert "C++" in names("Competences en C++ et Python", skills)
+
+
+def test_texte_vide(skills):
+    assert names("", skills) == set()

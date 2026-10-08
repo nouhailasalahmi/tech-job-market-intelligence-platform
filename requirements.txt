@@ -27,6 +27,13 @@ plotly>=5.18
 # ── Dashboard (Phase 7) ───────────────────────────────────────────────────────
 streamlit>=1.32
 
+# ── Reporting (generate_report.py) ────────────────────────────────────────────
+reportlab>=4.0          # génération du rapport PDF
+# kaleido>=0.2          # optionnel : exporter les graphiques Plotly en image pour le PDF
+
+# ── Tests ─────────────────────────────────────────────────────────────────────
+pytest>=8.0
+
 # ── Utilities ─────────────────────────────────────────────────────────────────
 pyyaml>=6.0
 tqdm>=4.66

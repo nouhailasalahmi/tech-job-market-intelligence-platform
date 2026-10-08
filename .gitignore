@@ -9,6 +9,7 @@ venv/
 __pycache__/
 *.pyc
 
+
 # Données (trop lourdes, et regénérables par ton pipeline)
 data/raw/
 data/processed/

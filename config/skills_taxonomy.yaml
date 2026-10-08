@@ -1,20 +1,23 @@
 # ─────────────────────────────────────────────────────────────────
 # Taxonomie des compétences
-# canonical_name: liste de patterns regex (case-insensitive)
+# categorie:
+#   Nom canonique: [patterns regex, insensibles à la casse]
+# Règle : on préfère la précision au rappel. Un motif court qui
+# ressemble à un mot courant ("cv", "julia", "hive"...) est évité.
 # ─────────────────────────────────────────────────────────────────
 
 languages:
   Python:       ['\bpython\b']
   SQL:          ['\bsql\b', '\bpostgresql\b', '\bmysql\b', '\bmariadb\b']
   Scala:        ['\bscala\b']
-  Java:         ['\bjava\b(?!script)']
+  Java:         ['\bjava\b']
   JavaScript:   ['\bjavascript\b', '\bjs\b']
-  TypeScript:   ['\btypescript\b', '\bts\b']
+  TypeScript:   ['\btypescript\b']
   "C++":        ['c\+\+', '\bcpp\b']
-  R:            ['\blanguage r\b', '\bprogrammation r\b', '\br studio\b', '\brstudio\b']
-  Julia:        ['\bjulia\b']
-  Go:           ['\bgolang\b']
-  Rust:         ['\brust\b(?!y)']
+  R:            ['\blanguage r\b', '\blangage r\b', '\bprogrammation r\b', '\br studio\b', '\brstudio\b', '\bpython/r\b', '\br/python\b']
+  Julia:        ['\bjulia lang\b', '\bjulialang\b']
+  Go:           ['\bgolang\b', '\blangage go\b']
+  Rust:         ['\brust\b']
 
 data_engineering:
   Spark:        ['\bspark\b', '\bpyspark\b']
@@ -23,10 +26,9 @@ data_engineering:
   Airflow:      ['\bairflow\b']
   dbt:          ['\bdbt\b']
   Flink:        ['\bflink\b']
-  Hive:         ['\bhive\b']
+  Hive:         ['\bapache hive\b', '\bhiveql\b']
   Databricks:   ['\bdatabricks\b']
   Snowflake:    ['\bsnowflake\b']
-  dbt:          ['\bdbt\b']
 
 cloud:
   AWS:          ['\baws\b', 'amazon web services']
@@ -36,7 +38,7 @@ cloud:
 devops_mlops:
   Docker:       ['\bdocker\b']
   Kubernetes:   ['\bkubernetes\b', '\bk8s\b']
-  Git:          ['\bgit\b(?!hub|lab)?', '\bgithub\b', '\bgitlab\b']
+  Git:          ['\bgit\b', '\bgithub\b', '\bgitlab\b']
   Linux:        ['\blinux\b', '\bunix\b']
   CI/CD:        ['\bci/cd\b', '\bjenkins\b', '\bgithub actions\b', '\bgitlab ci\b']
   Terraform:    ['\bterraform\b']
@@ -44,30 +46,30 @@ devops_mlops:
   MLOps:        ['\bmlops\b']
 
 machine_learning:
-  "Machine Learning":   ['machine learning', '\bml\b(?!\s*engineer)']
-  "Deep Learning":      ['deep learning', '\bdl\b']
+  "Machine Learning":   ['machine learning', 'apprentissage automatique', '\bml\b']
+  "Deep Learning":      ['deep learning', 'apprentissage profond']
   NLP:                  ['\bnlp\b', 'traitement du langage naturel', 'natural language processing']
-  "Computer Vision":    ['computer vision', '\bcv\b(?!\s*engineer)']
+  "Computer Vision":    ['computer vision', 'vision par ordinateur']
   LLM:                  ['\bllm\b', '\bllms\b', 'large language model']
-  "Gen AI":             ['generative ai', 'genai', 'gen.?ai']
+  "Gen AI":             ['generative ai', '\bgen\.?ai\b', 'ia g[ée]n[ée]rative']
   RAG:                  ['\brag\b', 'retrieval.augmented']
-  "Reinforcement Learning": ['reinforcement learning', '\brl\b(?!\s)']
+  "Reinforcement Learning": ['reinforcement learning', 'apprentissage par renforcement']
 
 libraries:
   Pandas:       ['\bpandas\b']
   NumPy:        ['\bnumpy\b']
   "Scikit-learn": ['scikit.?learn', '\bsklearn\b']
-  TensorFlow:   ['\btensorflow\b', '\btf\b']
+  TensorFlow:   ['\btensorflow\b']
   PyTorch:      ['\bpytorch\b']
   Keras:        ['\bkeras\b']
-  HuggingFace:  ['hugging.?face', '\btransformers\b(?! library)?']
+  HuggingFace:  ['hugging.?face']
   LangChain:    ['\blangchain\b']
   XGBoost:      ['\bxgboost\b']
   LightGBM:     ['\blightgbm\b']
 
 visualization:
   "Power BI":   ['power.?bi']
-  Tableau:      ['\btableau\b']
+  Tableau:      ['\btableau software\b', '\btableau desktop\b', '\btableau server\b', '\btableau public\b', '\btableau prep\b']
   Looker:       ['\blooker\b']
   Plotly:       ['\bplotly\b']
   Matplotlib:   ['\bmatplotlib\b']
@@ -79,10 +81,9 @@ databases:
   MySQL:        ['\bmysql\b']
   MongoDB:      ['\bmongodb\b']
   Redis:        ['\bredis\b']
-  Elasticsearch: ['\belasticsearch\b', '\belastic\b']
+  Elasticsearch: ['\belasticsearch\b', '\belk\b']
   Cassandra:    ['\bcassandra\b']
   Neo4j:        ['\bneo4j\b']
 
 soft_skills:
   Agile:        ['\bagile\b', '\bscrum\b', '\bkanban\b']
-  Communication: ['\bcommunication\b']

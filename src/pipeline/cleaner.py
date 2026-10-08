@@ -95,8 +95,8 @@ def deduplicate(df: pd.DataFrame) -> pd.DataFrame:
 # 3. NETTOYAGE TEXTE
 # ══════════════════════════════════════════════════════════════════════════════
 
-_HTML_TAG = re.compile(r"<[^>]+>")
-_WHITESPACE = re.compile(r"\s+")
+_HTML_TAG = re.compile(r"<[^>]+>")  # regex :  regular expression pour détecter les balises HTML
+_WHITESPACE = re.compile(r"\s+")    # regex :  regular expression pour détecter les espaces blancs (espaces, tabulations, retours à la ligne, etc.)
 
 
 def _clean_text(text) -> str:
@@ -119,7 +119,7 @@ def clean_texts(df: pd.DataFrame) -> pd.DataFrame:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def parse_dates(df: pd.DataFrame, min_date: Optional[str] = None) -> pd.DataFrame:
-    df["date"] = pd.to_datetime(df["date"], utc=True, errors="coerce").dt.tz_localize(None)
+    df["date"] = pd.to_datetime(df["date"], utc=True, errors="coerce").dt.tz_localize(None) # utilisatio du faisceau UTC pour éviter les problèmes de fuseau horaire
     before = len(df)
     df = df.dropna(subset=["date"])
     if min_date:
@@ -333,7 +333,7 @@ def score_relevance(df: pd.DataFrame) -> pd.DataFrame:
 # ══════════════════════════════════════════════════════════════════════════════
 # 10. RAPPORT DE QUALITÉ
 # ══════════════════════════════════════════════════════════════════════════════
-
+# rapport avec les valeurs manquantes et les 10 rôles les plus fréquents
 def quality_report(df: pd.DataFrame) -> str:
     total = len(df)
     sep = "-" * 50

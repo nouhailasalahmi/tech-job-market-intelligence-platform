@@ -2,7 +2,14 @@
 src/collectors/adzuna.py
 ────────────────────────
 Collecteur d'offres d'emploi via l'API Adzuna.
-Refactorisé depuis collect_adzuna.py (racine) vers l'architecture modulaire.
+Écrit UN fichier JSON par offre : data/raw/adzuna/{id}.json
+
+Format d'un fichier :
+    {
+      ...champs de l'offre (id, title, description, salary_min, ...),
+      "_meta": {"source", "country", "domain", "role", "keyword",
+                "collected_at", "page"}
+    }
 
 Usage (CLI):
     python -m src.collectors.adzuna
@@ -121,6 +128,35 @@ def _fetch_page(
 
 # ── Collecte ──────────────────────────────────────────────────────────────────
 
+def save_offers(
+    offers: list[dict],
+    out_dir: Path,
+    meta: dict,
+    seen_ids: set,
+) -> int:
+    """
+    Écrit un JSON par offre : {id}.json.
+    Une offre déjà vue pendant ce lancement (autre mot-clé) est ignorée.
+    Une offre déjà collectée lors d'un lancement précédent est écrasée
+    (version la plus récente). Retourne le nombre de nouvelles offres.
+    """
+    new = 0
+    for offer in offers:
+        offer_id = offer.get("id")
+        if offer_id is None:
+            continue
+        key = str(offer_id)
+        if key in seen_ids:
+            continue
+        seen_ids.add(key)
+
+        record = {**offer, "_meta": meta}
+        path = out_dir / f"{key}.json"
+        path.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
+        new += 1
+    return new
+
+
 def collect_keyword(
     session: requests.Session,
     app_id: str,
@@ -146,7 +182,7 @@ def collect_keyword(
             logger.info("[%s] page %d : aucun résultat.", keyword, page)
             break
 
-        record = {
+        meta = {
             "source": "adzuna",
             "country": country,
             "domain": domain,
@@ -154,13 +190,8 @@ def collect_keyword(
             "keyword": keyword,
             "collected_at": datetime.now(timezone.utc).isoformat(),
             "page": page,
-            "payload": payload,
         }
-        path = out_dir / f"{slugify(keyword)}_{page:03d}.json"
-        path.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
-
-        new = sum(1 for o in offers if str(o.get("id")) not in seen_ids)
-        seen_ids.update(str(o.get("id")) for o in offers)
+        new = save_offers(offers, out_dir, meta, seen_ids)
         stats[keyword] = stats.get(keyword, 0) + len(offers)
 
         logger.info(
@@ -188,7 +219,7 @@ def run(
 
     today = datetime.now().strftime("%Y-%m-%d")
     root = Path(out)
-    out_dir = root / "raw" / "adzuna" / today
+    out_dir = root / "raw" / "adzuna"          # plus de sous-dossier par date
     log_dir = root / "logs"
     out_dir.mkdir(parents=True, exist_ok=True)
     log_dir.mkdir(parents=True, exist_ok=True)
@@ -216,8 +247,8 @@ def run(
             logger.error("[%s] échec : %s", entry["query"], exc)
 
     logger.info("Terminé. Offres par mot-clé : %s", stats)
-    logger.info("Offres uniques : %d", len(seen_ids))
-    return 0
+    logger.info("Offres uniques : %d (dans %s)", len(seen_ids), out_dir)
+    return 0 if seen_ids else 1
 
 
 # ── CLI ───────────────────────────────────────────────────────────────────────
