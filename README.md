@@ -2,7 +2,7 @@
 
 Plateforme d'analyse du marché de l'emploi tech : collecte d'offres multi-sources, extraction automatique des compétences par NLP, analyses (salaires, clusters, tendances) et dashboard interactif.
 
-🔗 **Démo en ligne :** https://VOTRE-LIEN.streamlit.app
+🔗 **Démo en ligne :** [Ouvrir le dashboard](https://tech-job-market-intelligence-platform-ckmsrpabdqnu22ppud5dqj.streamlit.app/)
 
 ---
 
