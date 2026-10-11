@@ -1,32 +1,67 @@
-# AI & Data Job Market Intelligence Platform
+# 📊 Tech Job Market Intelligence Platform
 
-## Architecture
+Plateforme d'analyse du marché de l'emploi tech : collecte d'offres multi-sources, extraction automatique des compétences par NLP, analyses (salaires, clusters, tendances) et dashboard interactif.
+
+🔗 **Démo en ligne :** https://VOTRE-LIEN.streamlit.app
+
+---
+
+## 🎯 Objectifs
+
+- Centraliser les offres tech issues de plusieurs sources (**Adzuna**, **France Travail**)
+- Identifier les compétences les plus demandées
+- Analyser les salaires (mensuels), les profils et l'évolution dans le temps
+- Mesurer l'écart entre un profil et les compétences du marché (*skill gap*)
+
+## 🧱 Stack technique
+
+Python · pandas · SQLite · NLP (extraction par taxonomie) · scikit-learn · Streamlit · APIs REST · Git/GitHub
+
+## 🔄 Fonctionnement
 
 ```
-.
+APIs (Adzuna, France Travail)
+        ↓  collecte
+   JSON bruts (data/raw/)
+        ↓  nettoyage
+   SQLite (data/jobs.db)
+        ↓  NLP
+   Compétences (table job_skills)
+        ↓  analyses
+   Dashboard Streamlit
+```
+
+## 📁 Structure du projet
+
+```
 ├── config/
 │   ├── keywords.yaml          # Mots-clés de collecte par domaine
-│   └── skills_taxonomy.yaml   # Taxonomie des compétences (Phase 3)
+│   └── skills_taxonomy.yaml   # Taxonomie des compétences (9 catégories)
 │
 ├── data/
-│   ├── raw/adzuna/            # JSON bruts horodatés (YYYY-MM-DD/)
+│   ├── raw/                   # JSON bruts (adzuna/, francetravail/)
 │   ├── processed/
-│   │   └── jobs_clean.csv     # Données nettoyées Phase 2
+│   │   └── jobs_clean.csv     # Données nettoyées
 │   ├── logs/                  # Logs de collecte et pipeline
 │   └── jobs.db                # SQLite — tables jobs, job_skills
 │
 ├── src/
 │   ├── collectors/
-│   │   └── adzuna.py          # Phase 1 — Collecte API Adzuna
+│   │   ├── adzuna.py          # Collecte API Adzuna
+│   │   └── francetravail.py   # Collecte API France Travail
 │   ├── pipeline/
 │   │   ├── loader.py          # Chargement JSON bruts → DataFrame
-│   │   ├── cleaner.py         # Phase 2 — Nettoyage complet
+│   │   ├── cleaner.py         # Nettoyage complet
 │   │   ├── db_loader.py       # Écriture SQLite + index
 │   │   └── run_pipeline.py    # Orchestrateur CLI
-│   ├── nlp/                   # Phase 3 (à venir)
-│   ├── analysis/              # Phase 4 (à venir)
-│   ├── skill_gap/             # Phase 6 (à venir)
-│   └── dashboard/             # Phase 7 (à venir)
+│   ├── analysis/
+│   │   ├── nlp/               # Extraction des compétences
+│   │   ├── skill_gap/         # Analyse d'écart de compétences
+│   │   ├── analyse_salaire.py # Analyse des salaires
+│   │   ├── clustering.py      # Clustering des offres
+│   │   └── temporal.py        # Évolution dans le temps
+│   └── dashboard/
+│       └── app.py             # Dashboard Streamlit
 │
 ├── notebooks/                 # EDA Jupyter
 ├── tests/
@@ -34,45 +69,39 @@
 └── README.md
 ```
 
-## Lancement rapide
+## 🚀 Installation et utilisation
 
-### Installer les dépendances
 ```bash
+# 1. Cloner le dépôt
+git clone https://github.com/nouhailasalahmi/tech-job-market-intelligence-platform.git
+cd tech-job-market-intelligence-platform
+
+# 2. Installer les dépendances
 pip install -r requirements.txt
+
+# 3. (Optionnel) Relancer le pipeline de collecte et nettoyage
+python -m src.pipeline.run_pipeline --collect
+
+# 4. Extraire les compétences
+python -m src.analysis.nlp.skills_extractor
+
+# 5. Lancer le dashboard
+streamlit run src/dashboard/app.py
 ```
 
-### Phase 2 uniquement (données déjà collectées)
-```bash
-python -m src.pipeline.run_pipeline
-```
+> Les clés API (Adzuna, France Travail) se placent dans un fichier `.env` (non versionné).
 
-### Phase 1 + Phase 2
-```bash
-python -m src.pipeline.run_pipeline --collect --domain ai_data --max-pages 10
-```
+## ✅ Avancement
 
-### Avec filtre de date
-```bash
-python -m src.pipeline.run_pipeline --min-date 2026-08-01
-```
+| Phase | Contenu | Statut |
+|---|---|---|
+| 1 | Collecte (Adzuna, France Travail) | ✅ |
+| 2 | Nettoyage + base SQLite | ✅ |
+| 3 | NLP : extraction des compétences | ✅ |
+| 4 | Analyses : salaires, clustering, temporel | ✅ |
+| 5 | Skill gap | ✅ |
+| 6 | Dashboard Streamlit (déployé) | ✅ |
 
-## Phases
+## 👩‍💻 Auteure
 
-| Phase | Module | Statut |
-|-------|--------|--------|
-| 1 — Collecte | `src/collectors/adzuna.py` | ✅ |
-| 2 — Préparation | `src/pipeline/cleaner.py` | ✅ |
-| 3 — NLP | `src/nlp/` | 🔲 |
-| 4 — Data Science | `src/analysis/` | 🔲 |
-| 5 — Temporel | `src/analysis/temporal.py` | 🔲 |
-| 6 — Skill Gap | `src/skill_gap/` | 🔲 |
-| 7 — Dashboard | `src/dashboard/` | 🔲 |
-
-## Variables d'environnement
-
-```bash
-ADZUNA_APP_ID=<ton_app_id>
-ADZUNA_APP_KEY=<ta_app_key>
-```
-
-Crée un fichier `.env` à la racine du projet.
+**Nouha** — Étudiante ingénieure Smart ICT (Data Science & IA), INPT Rabat
